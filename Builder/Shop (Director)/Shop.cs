@@ -10,7 +10,10 @@ namespace Builder
     {
         public void Construct(Builder builder)
         {
-            
+            builder.Engine();
+            builder.Housing();
+            builder.KPP();
+            builder.Wheels();
         }
     }
 }

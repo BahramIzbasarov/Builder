@@ -14,6 +14,5 @@ namespace Builder
         public abstract void KPP();
 
         public abstract Product GetResult();
-
     }
 }

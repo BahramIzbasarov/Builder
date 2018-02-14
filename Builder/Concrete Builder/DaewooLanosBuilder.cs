@@ -8,30 +8,30 @@ namespace Builder
 {
     class DaewooLanosBuilder : Builder
     {
-        private Product products = new Product();
+        private Product product = new Product();
 
         public override void Engine()
         {
-            throw new NotImplementedException();
+            product.Add("Engine - 98");
         }
 
         public override void Housing()
         {
-            throw new NotImplementedException();
+            product.Add("Housing - Sedan");
         }
 
         public override void KPP()
         {
-            throw new NotImplementedException();
+            product.Add("KPP - 5 Manual");
         }
 
         public override void Wheels()
         {
-            throw new NotImplementedException();
+            product.Add("Wheels - 5 Manual");
         }
         public override Product GetResult()
         {
-            return products;
+            return product;
         }
     }
 }

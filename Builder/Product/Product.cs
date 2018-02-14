@@ -14,5 +14,14 @@ namespace Builder
         {
             parts.Add(part);
         }
+
+        public void Show()
+        {
+            Console.WriteLine("Product Parts -------");
+            foreach (string part in parts)
+            {
+                Console.WriteLine(part);
+            }
+        }
     }
 }

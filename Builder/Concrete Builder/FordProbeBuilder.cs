@@ -8,31 +8,31 @@ namespace Builder
 {
     class FordProbeBuilder : Builder
     {
-        private Product products = new Product();
+        private Product product = new Product();
 
         public override void Housing()
         {
-            throw new NotImplementedException();
+            product.Add("Housing - Coupe");
         }
 
         public override void Engine()
         {
-            throw new NotImplementedException();
+            product.Add("Engine - 160");
         }
 
         public override void Wheels()
         {
-            throw new NotImplementedException();
+            product.Add("Wheels - 14");
         }
 
         public override void KPP()
         {
-            throw new NotImplementedException();
+            product.Add("KPP - 4 Auto");
         }
 
         public override Product GetResult()
         {
-            return products;
+            return product;
         }
     }
 }
